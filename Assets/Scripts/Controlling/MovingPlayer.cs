@@ -1,5 +1,7 @@
 using UnityEngine;
 
+using Managers;
+
 namespace Controlling
 {
     [RequireComponent(typeof(CharacterController))]
@@ -17,6 +19,10 @@ namespace Controlling
 
         void Update()
         {
+            if(!ManagersService.States.CurrentStateIsPlayable)
+            {
+                return;
+            }
             float xAxis = Input.GetAxis("Horizontal");
             float zAxis = Input.GetAxis("Vertical");
             Vector3 movement = new Vector3(xAxis, 0, zAxis);

@@ -1,5 +1,7 @@
 using UnityEngine;
 
+using Managers;
+
 namespace Controlling
 {
     public class MouseLooking : MonoBehaviour
@@ -18,6 +20,10 @@ namespace Controlling
 
         void Update()
         {
+            if(!ManagersService.States.CurrentStateIsPlayable)
+            {
+                return;
+            }
             if(_mode == LookingMode.Horizontal)
             {
                 transform.Rotate(0, Input.GetAxis("Mouse X") * _rotationSensitivity, 0);
