@@ -74,7 +74,7 @@ namespace UI
             var sprite = Resources.Load<Sprite>(_filePath + spriteName);
             if(sprite is null)
             {
-                Debug.LogError("Can't load " + _filePath + spriteName);
+                Debug.Log("Can't load " + _filePath + "\"" + spriteName + "\"");
                 return _defaultSprite;
             }
             return sprite;

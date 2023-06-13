@@ -9,4 +9,5 @@ public static class Events
     public static readonly string MadeDarkness = "MadeDarkness";
     public static readonly string ClearedDarkness = "ClearedDarkness";
     public static readonly string LoadScene = "LoadScene";
+    public static readonly string LoadedScene = "LoadedScene";
 }
