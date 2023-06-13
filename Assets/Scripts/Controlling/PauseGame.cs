@@ -16,7 +16,7 @@ namespace Controlling
                     States.RollbackState();
                     Messenger.Broadcast(Events.Unpaused);
                 }
-                else if(States.CurrentStateIsPlayable)
+                else if(States.CurrentStateCanPause)
                 {
                     States.CurrentState = StatesManager.GameStates.Pause;
                     Messenger.Broadcast(Events.Paused);

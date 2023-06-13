@@ -1,0 +1,12 @@
+{
+    "Classes": [
+        {
+            "ID": "true",
+            "ClassName": "Dialogue.Conditions.TrueCondition"
+        },
+        {
+            "ID": "test",
+            "ClassName": "Dialogue.Behaviours.TestBehaviour"
+        }
+    ]
+}
