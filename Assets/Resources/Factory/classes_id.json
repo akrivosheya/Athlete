@@ -7,6 +7,10 @@
         {
             "ID": "test",
             "ClassName": "Dialogue.Behaviours.TestBehaviour"
+        },
+        {
+            "ID": "half",
+            "ClassName": "Race.RunningBehaviours.HalfEffortBehaviour"
         }
     ]
 }

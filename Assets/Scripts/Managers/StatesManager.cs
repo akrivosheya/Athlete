@@ -10,8 +10,10 @@ namespace Managers
             Loading = 1,
             Walking = 2,
             Pause = 3,
-            Running = 4,
-            Dialogue = 5
+            Start = 4,
+            Running = 5,
+            Finish = 6,
+            Dialogue = 7
         }
 
         public GameStates CurrentState
@@ -30,7 +32,8 @@ namespace Managers
         {
             get
             {
-                return _currentState == GameStates.Walking || _currentState == GameStates.Running;
+                return _currentState == GameStates.Walking || _currentState == GameStates.Running ||
+                _currentState == GameStates.Finish;
             }
         }
         public bool CurrentStateCanPause
@@ -49,7 +52,7 @@ namespace Managers
             }
         }
         
-        private GameStates _currentState = GameStates.None;
+        [SerializeField] GameStates _currentState = GameStates.None;
         private GameStates _previousState = GameStates.None;
 
         public void RollbackState()
@@ -61,9 +64,9 @@ namespace Managers
         {
             if(CurrentState == GameStates.Walking)
             {
-                CurrentState = GameStates.Running;
+                CurrentState = GameStates.Start;
             }
-            else if(CurrentState == GameStates.Running)
+            else if(CurrentState == GameStates.Finish)
             {
                 CurrentState = GameStates.Walking;
             }
