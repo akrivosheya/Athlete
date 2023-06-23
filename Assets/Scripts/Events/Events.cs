@@ -10,4 +10,5 @@ public static class Events
     public static readonly string ClearedDarkness = "ClearedDarkness";
     public static readonly string LoadScene = "LoadScene";
     public static readonly string LoadedScene = "LoadedScene";
+    public static readonly string PlayerRunTimePoint = "PlayerRunTimePoint";
 }

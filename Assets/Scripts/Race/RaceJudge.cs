@@ -28,15 +28,11 @@ namespace Race
         {
             float currentTime = Time.time;
             int runPoints = runner.RunPoints;
-            if(runPoints == 0)
+            runner.Times.Add(currentTime - GetRunTime(runner) - _beginningTime);
+            if(runner.tag == Tags.Player)
             {
-                runner.Times.Add(currentTime - _beginningTime);
+                Messenger.Broadcast(Events.PlayerRunTimePoint);
             }
-            else
-            {
-                runner.Times.Add(currentTime - runner.Times[runPoints - 1] - _beginningTime);
-            }
-            Debug.Log(runner.Times[runner.Times.Count - 1]);
             runner.RunPoints++;
 
             if(runner.RunPoints >= _maxPoints)
@@ -65,6 +61,18 @@ namespace Race
         private void OnLoadedScene()
         {
             StartCoroutine(DoCounting());
+        }
+
+        private float GetRunTime(Runner runner)
+        {
+            float allTime = 0;
+
+            foreach(var time in runner.Times)
+            {
+                allTime += time;
+            }
+
+            return allTime;
         }
 
         private IEnumerator DoCounting()
