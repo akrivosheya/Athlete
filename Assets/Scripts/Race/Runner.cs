@@ -10,5 +10,6 @@ namespace Race
         public int Road { get; set; } = 0;
         public bool CanChangeRoad { get; set; } = false;
         public bool IsDisqualified { get; set; } = false;
+        public bool GotOffTrack { get; set; } = false;
     }
 }

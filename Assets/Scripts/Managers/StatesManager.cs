@@ -32,16 +32,29 @@ namespace Managers
         {
             get
             {
-                return _currentState == GameStates.Walking || _currentState == GameStates.Running ||
-                _currentState == GameStates.Finish;
+                return _currentState == GameStates.Walking;
+            }
+        }
+        public bool CurrentStateIsRunnable
+        {
+            get
+            {
+                return _currentState == GameStates.Running || _currentState == GameStates.Finish;
+            }
+        }
+        public bool CurrentStateIsRace
+        {
+            get
+            {
+                return _currentState == GameStates.Running || _currentState == GameStates.Finish ||
+                _currentState == GameStates.Start;
             }
         }
         public bool CurrentStateCanPause
         {
             get
             {
-                return _currentState == GameStates.Walking || _currentState == GameStates.Running ||
-                _currentState == GameStates.Dialogue;
+                return _currentState == GameStates.Walking || _currentState == GameStates.Dialogue;
             }
         }
         public bool CurrentStateIsPause
@@ -66,7 +79,7 @@ namespace Managers
             {
                 CurrentState = GameStates.Start;
             }
-            else if(CurrentState == GameStates.Finish)
+            else if(CurrentStateIsRace)
             {
                 CurrentState = GameStates.Walking;
             }

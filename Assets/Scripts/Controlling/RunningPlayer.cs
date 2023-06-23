@@ -33,7 +33,7 @@ namespace Controlling
 
         void Update()
         {
-            if(!Managers.ManagersService.States.CurrentStateIsPlayable || _isStopped)
+            if(!Managers.ManagersService.States.CurrentStateIsRunnable || _isStopped)
             {
                 return;
             }

@@ -38,7 +38,7 @@ namespace Race
 
         void Update()
         {
-            if(ManagersService.States.CurrentStateIsPlayable && !_isStopped && !_isOutrunning)
+            if(ManagersService.States.CurrentStateIsRunnable && !_isStopped && !_isOutrunning)
             {
                 bool madeEffort = _behaviour.CalcuateEffort(_body);
                 var direction = _scanner.CurrentRoadDirection;
