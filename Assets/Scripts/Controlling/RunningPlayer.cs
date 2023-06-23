@@ -43,6 +43,11 @@ namespace Controlling
             var axis = Input.GetAxis("Horizontal");
             transform.Rotate(0, axis * _rotationSpeed * Time.deltaTime, 0);
 
+            if(Input.GetKeyDown(KeyCode.R))
+            {
+                _body.DecreaseEffort();
+            }
+
             float speed = 0f;
             if(_runnerScanner.TryGetRunner(_runner.Road, out BodyCalculator otherBody))
             {

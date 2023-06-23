@@ -62,17 +62,19 @@ namespace Race
             return _minSpeed + (Effort - _minEffort) * (limitSpeedManitude / (_maxEffort - _minEffort));
         }
 
+        public void DecreaseEffort()
+        {
+            var tmp = Effort;
+            Effort -= _effortDecrease;
+            Debug.Log(tmp + " " + Effort);
+            Effort = Mathf.Clamp(Effort, _minEffort, _maxEffort);
+        }
+
         private float GetEffort(float speed)
         {
             float _lacticAcidImpact = GetLacticAcidImpactCoefficient();
             float limitSpeedManitude = (_maxSpeed - _minSpeed) * _lacticAcidImpact;
             return (speed - _minSpeed) * (_maxEffort - _minEffort) / limitSpeedManitude + _minEffort;
-        }
-
-        public void DecreaseEffort()
-        {
-            Effort -= _effortDecrease * Time.deltaTime;
-            Effort = Mathf.Clamp(Effort, _minEffort, _maxEffort);
         }
 
         private float GetLacticAcidImpactCoefficient()
