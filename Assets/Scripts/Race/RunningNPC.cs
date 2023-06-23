@@ -80,6 +80,11 @@ namespace Race
             StartCoroutine(SlowDown());
         }
 
+        public override void Die()
+        {
+            _isStopped = true;
+        }
+
         private IEnumerator SlowDown()
         {
             float speed = _body.GetSpeed();

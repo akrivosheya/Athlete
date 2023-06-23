@@ -10,7 +10,7 @@ namespace Controlling
 
         void Update()
         {
-            if(Input.GetKeyDown(KeyCode.Escape) && ManagersService.States.CurrentState != StatesManager.GameStates.Finish)
+            if(Input.GetKeyDown(KeyCode.E) && ManagersService.States.CurrentState != StatesManager.GameStates.Finish)
             {
                 _runner.GotOffTrack = true;
                 ManagersService.Race.SetResults(_runner);

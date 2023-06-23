@@ -2938,6 +2938,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LacticAcid: 0
   Effort: 50
+  _object: {fileID: 842054031}
   _kEffort: 0.06
   _maxEffort: 100
   _minEffort: 50
@@ -2947,6 +2948,8 @@ MonoBehaviour:
   _maxSpeed: 8
   _effortIncrease: 1
   _effortDecrease: 4
+  _stamina: 100
+  _staminaDecrease: 8
 --- !u!114 &842054035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4081,6 +4084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LacticAcid: 0
   Effort: 50
+  _object: {fileID: 0}
   _kEffort: 0.05
   _maxEffort: 100
   _minEffort: 50
@@ -4090,6 +4094,8 @@ MonoBehaviour:
   _maxSpeed: 8
   _effortIncrease: 1
   _effortDecrease: 4
+  _stamina: 100
+  _staminaDecrease: 8
 --- !u!114 &1216943200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5357,10 +5363,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _camera: {fileID: 963194229}
-  _cameraOffset: {x: -5, y: 0, z: 0}
+  _slowDownCameraOffset: {x: -1, y: 0, z: 0}
   _slowDownSpeed: 4
   _rotationSpeed: 50
   _gravityForce: -9.8
+  _cameraSpeed: 0.5
+  _cameraFinalYPosition: 3
+  _cameraStopRange: 0.2
 --- !u!54 &1763311086
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5417,6 +5426,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LacticAcid: 0
   Effort: 50
+  _object: {fileID: 1763311085}
   _kEffort: 0.06
   _maxEffort: 100
   _minEffort: 50
@@ -5426,6 +5436,8 @@ MonoBehaviour:
   _maxSpeed: 8
   _effortIncrease: 1
   _effortDecrease: 4
+  _stamina: 100
+  _staminaDecrease: 8
 --- !u!114 &1763311090
 MonoBehaviour:
   m_ObjectHideFlags: 0

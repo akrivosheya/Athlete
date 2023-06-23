@@ -13,10 +13,13 @@ namespace Controlling
     public class RunningPlayer : RunningObject
     {
         [SerializeField] private WatchingCamera _camera;
-        [SerializeField] private Vector3 _cameraOffset;
+        [SerializeField] private Vector3 _slowDownCameraOffset;
         [SerializeField] private float _slowDownSpeed = 4f;
         [SerializeField] private float _rotationSpeed = 1f;
         [SerializeField] private float _gravityForce = -9.8f;
+        [SerializeField] private float _cameraSpeed = 1f;
+        [SerializeField] private float _cameraFinalYPosition = 2f;
+        [SerializeField] private float _cameraStopRange = 0.2f;
         private CharacterController _controller;
         private BodyCalculator _body;
         private Runner _runner;
@@ -62,11 +65,24 @@ namespace Controlling
             _isStopped = true;
 
             _camera.transform.parent = null;
-            var cameraPosition = transform.position + transform.TransformDirection(_cameraOffset);
+            var cameraPosition = transform.position + transform.TransformDirection(_slowDownCameraOffset);
             _camera.transform.position = cameraPosition;
             _camera.StartWatching();
 
             StartCoroutine(SlowDown());
+        }
+
+        public override void Die()
+        {
+            _isStopped = true;
+
+            _camera.transform.parent = null;
+            var cameraPosition = transform.position + transform.TransformDirection(Vector3.up);
+            _camera.transform.position = cameraPosition;
+            _camera.StartWatching();
+            _runner.GotOffTrack = true;
+
+            StartCoroutine(ShowDeadBody());
         }
 
         private IEnumerator SlowDown()
@@ -86,6 +102,23 @@ namespace Controlling
                 yield return null;
 
                 slowDownCoefficient = _slowDownSpeed * Time.deltaTime;
+            }
+
+            ManagersService.Race.SetResults(_runner);
+            ManagersService.Level.LoadPreviousScene();
+        }
+
+        private IEnumerator ShowDeadBody()
+        {
+            var finalCameraPosition = transform.position + Vector3.up * _cameraFinalYPosition;
+            var movement = new Vector3(0, _cameraSpeed, 0);
+
+            while(Vector3.Magnitude(_camera.transform.position - finalCameraPosition) > _cameraStopRange)
+            {
+                var fixedMovement = movement * Time.deltaTime;
+                _camera.transform.Translate(fixedMovement, Space.World);
+                
+                yield return null;
             }
 
             ManagersService.Race.SetResults(_runner);

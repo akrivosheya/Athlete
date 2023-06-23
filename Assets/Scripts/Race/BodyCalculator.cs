@@ -9,6 +9,7 @@ namespace Race
         [Range(0, 100f)] public float LacticAcid = 0f;
         [Range(50, 100)] public float Effort = 50f;
         public float HalfEffort { get => (_maxEffort + _minEffort) / 2; }
+        [SerializeField] private RunningObject _object;
         [SerializeField] private float _kEffort = 0.05f;
         [SerializeField] private float _maxEffort = 100f;
         [SerializeField] private float _minEffort = 50f;
@@ -18,16 +19,23 @@ namespace Race
         [SerializeField] private float _maxSpeed = 8f;
         [SerializeField] private float _effortIncrease = 1f;
         [SerializeField] private float _effortDecrease = 4f;
+        [SerializeField] private float _stamina = 100;
+        [SerializeField] private float _staminaDecrease = 8f;
 
         public float GetSpeed(float currentMaxSpeed, bool madeEffort)
         {
             Effort += (madeEffort) ? _effortIncrease : 0;
             Effort -= _effortDecrease * (LacticAcid / _maxLacticAcid) * Time.deltaTime;
-            float currentMaxEffort = GetEffort(currentMaxSpeed);
+            float currentMaxEffort = (currentMaxSpeed >= _maxSpeed) ? _maxEffort : GetEffort(currentMaxSpeed);
             Effort = Mathf.Clamp(Effort, _minEffort, currentMaxEffort);
             float speed = GetSpeed();
             //Debug.Log(speed);
             LacticAcid += (Effort - _minEffort) * _kEffort * Time.deltaTime;
+            _stamina -= (LacticAcid >= _maxLacticAcid && Effort >= HalfEffort) ? GetStaminaDecrease() : 0;
+            if(_stamina <= 0)
+            {
+                _object.Die();
+            }
             LacticAcid = Mathf.Clamp(LacticAcid, 0, _maxLacticAcid);
 
             return speed;
@@ -44,15 +52,7 @@ namespace Race
 
         public float GetSpeed(bool madeEffort)
         {
-            Effort += (madeEffort) ? _effortIncrease : 0;
-            Effort -= _effortDecrease * (LacticAcid / _maxLacticAcid) * Time.deltaTime;
-            Effort = Mathf.Clamp(Effort, _minEffort, _maxEffort);
-            float speed = GetSpeed();
-            //Debug.Log(speed);
-            LacticAcid += (Effort - _minEffort) * _kEffort * Time.deltaTime;
-            LacticAcid = Mathf.Clamp(LacticAcid, 0, _maxLacticAcid);
-
-            return speed;
+            return GetSpeed(_maxSpeed, madeEffort);
         }
 
         public float GetSpeed()
@@ -78,6 +78,11 @@ namespace Race
         private float GetLacticAcidImpactCoefficient()
         {
             return (LacticAcid >= _maxLacticAcid / 2) ? _maxLacticAcid / 2 / LacticAcid : 1;
+        }
+
+        private float GetStaminaDecrease()
+        {
+            return _staminaDecrease * (Effort - HalfEffort) / (_maxEffort - HalfEffort) * Time.deltaTime;
         }
     }
 }
