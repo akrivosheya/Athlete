@@ -1,0 +1,10 @@
+{
+    "Levels": [
+        {
+            "Description": "first",
+            "Scene": "SampleScene",
+            "Time": "-",
+            "IsCompleted": false
+        }
+    ]
+}
