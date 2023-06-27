@@ -5,6 +5,7 @@ using Managers;
 public class UIMenu : MonoBehaviour
 {
     [SerializeField] private GameObject _menu;
+    [SerializeField] private string _mainMenuScene = "MainMenu";
 
     void Start()
     {
@@ -31,7 +32,7 @@ public class UIMenu : MonoBehaviour
 
     public void OnExit()
     {
-        Application.Quit();
+        ManagersService.Level.LoadScene(_mainMenuScene, StatesManager.GameStates.Menu);
     }
 
     private void HideCursor()

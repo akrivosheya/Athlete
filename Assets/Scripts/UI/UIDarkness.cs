@@ -21,6 +21,7 @@ namespace UI
         
         public void MakeDarkness()
         {
+            _darkness.gameObject.SetActive(true);
             StartCoroutine(ChangeTransperancy(1, Events.MadeDarkness));
         }
 
@@ -41,7 +42,9 @@ namespace UI
                 _darkness.color = color;
 
                 yield return null;
-            } while( !(alpha < 0 || alpha > 1f) );
+            } while( !(alpha < 0 || alpha > _untransperancy) );
+
+            _darkness.gameObject.SetActive(alpha > _untransperancy);
 
             Messenger.Broadcast(eventName);
         }

@@ -3,6 +3,7 @@
         {
             "Description": "first",
             "Scene": "SampleScene",
+            "State": 2,
             "Time": "-",
             "IsCompleted": false
         }

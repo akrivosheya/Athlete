@@ -8,6 +8,8 @@ namespace Managers
         public string CurrentSceneName { get { return SceneManager.GetActiveScene().name; } }
         private string _previousScene;
         private string _sceneToLoad = "";
+        private StatesManager.GameStates _nextSceneState;
+        private StatesManager.GameStates _previousSceneState;
 
         void Awake()
         {
@@ -17,7 +19,7 @@ namespace Managers
 
         void Start()
         {
-            ManagersService.States.CurrentState = StatesManager.GameStates.Finish;
+            ManagersService.States.CurrentState = StatesManager.GameStates.Menu;
             ManagersService.States.CurrentState = StatesManager.GameStates.Loading;
         }
 
@@ -27,11 +29,13 @@ namespace Managers
             Messenger.RemoveListener(Events.MadeDarkness, OnMadeDarkness);
         }
 
-        public void LoadScene(string scene)
+        public void LoadScene(string scene, StatesManager.GameStates state)
         {
             _previousScene = CurrentSceneName;
+            _previousSceneState = ManagersService.States.CurrentState;
             _sceneToLoad = scene;
 
+            ManagersService.States.CurrentState = state;
             ManagersService.States.CurrentState = StatesManager.GameStates.Loading;
 
             Messenger.Broadcast(Events.LoadScene);
@@ -39,7 +43,7 @@ namespace Managers
 
         public void LoadPreviousScene()
         {
-            LoadScene(_previousScene);
+            LoadScene(_previousScene, _previousSceneState);
         }
 
         public void ImmediatelyLoadScene(string scene)
@@ -51,7 +55,6 @@ namespace Managers
         private void OnClearedDarkness()
         {
             ManagersService.States.RollbackState();
-            ManagersService.States.SwitchState();
             try
             {
                 Messenger.Broadcast(Events.LoadedScene);

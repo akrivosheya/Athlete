@@ -24,9 +24,9 @@ namespace Managers
             DontDestroyOnLoad(gameObject);
         }
 
-        void Start()
+        /*void Start()
         {
             Level.ImmediatelyLoadScene(_firstScene);
-        }
+        }*/
     }
 }

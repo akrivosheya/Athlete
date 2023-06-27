@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 using Race;
+using Formatters;
 
 namespace UI
 {
@@ -14,7 +15,6 @@ namespace UI
         [SerializeField] private Slider _effortIndicator;
         [SerializeField] private Text _coachScream;
         [SerializeField] private float _waitSeconds = 2f;
-        [SerializeField] private int _shownNumbersCount = 5;
 
         void Awake()
         {
@@ -39,9 +39,8 @@ namespace UI
 
         private void OnPlayerRunTimePoint()
         {
-            var time = _runner.Times[_runner.Times.Count - 1].ToString();
-            var length = Mathf.Min(_shownNumbersCount, time.Length);
-            _coachScream.text = time.Substring(0, length) + '!';
+            var time = _runner.Times[_runner.Times.Count - 1];
+            _coachScream.text = TimeFormatter.GetTimeFormat(time) + '!';
 
             StartCoroutine(HideCouchScream());
         }

@@ -5,6 +5,8 @@ using UnityEngine.EventSystems;
 
 using ScriptableObjects;
 using Data;
+using Managers;
+using Formatters;
 
 namespace UI
 {
@@ -36,7 +38,14 @@ namespace UI
                 description.Append(_level.Description);
                 description.Append('\n');
                 description.Append(_timeString);
-                description.Append(_level.Time);
+                if(_level.IsCompleted)
+                {
+                    description.Append(TimeFormatter.GetTimeFormat(_level.Time));
+                }
+                else
+                {
+                    description.Append('-');
+                }
                 _description.text  = description.ToString();
             }
         }
@@ -48,7 +57,8 @@ namespace UI
 
         public void OnClick()
         {
-            Managers.ManagersService.Level.LoadScene(_level.Scene);
+            ManagersService.Race.Race = Index;
+            ManagersService.Level.LoadScene(_level.Scene, (StatesManager.GameStates)_level.State);
         }
     }
 }

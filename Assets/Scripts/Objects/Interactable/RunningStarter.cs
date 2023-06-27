@@ -8,7 +8,7 @@ namespace Objects.Interactable
 
         public void Interact()
         {
-            Managers.ManagersService.Level.LoadScene(_runningScene);
+            Managers.ManagersService.Level.LoadScene(_runningScene, Managers.StatesManager.GameStates.Start);
         }
     }
 }

@@ -5,7 +5,8 @@ namespace Data
     {
         public string Description;
         public string Scene;
-        public string Time;
+        public float Time;
+        public int State;
         public bool IsCompleted;
     }
 }

@@ -13,7 +13,8 @@ namespace Managers
             Start = 4,
             Running = 5,
             Finish = 6,
-            Dialogue = 7
+            Dialogue = 7,
+            Menu = 8
         }
 
         public GameStates CurrentState
