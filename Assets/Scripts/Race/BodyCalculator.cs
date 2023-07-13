@@ -64,9 +64,7 @@ namespace Race
 
         public void DecreaseEffort()
         {
-            var tmp = Effort;
             Effort -= _effortDecrease;
-            Debug.Log(tmp + " " + Effort);
             Effort = Mathf.Clamp(Effort, _minEffort, _maxEffort);
         }
 

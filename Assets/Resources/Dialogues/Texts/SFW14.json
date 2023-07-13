@@ -1,0 +1,31 @@
+{
+    "Texts": [
+        {
+            "Text": "Эм, нет. А надо?",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "StudentFriend",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Дим, конечно. Без регистрации тебя тупо не допустят.",
+            "Person": "Леха",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "StudentFriend",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Просто подойди к той девушке за столом. Она тебе даст номер.",
+            "Person": "Леха",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "StudentFriend",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "Texts": [
+        {
+            "Text": "Да, вот только что.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "StudentFriend",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Круто! Ну готовься, разминайся, сейчас будет весело!",
+            "Person": "Леха",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "StudentFriend",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Жду, не дождусь.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "StudentFriend",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        }
+    ]
+}

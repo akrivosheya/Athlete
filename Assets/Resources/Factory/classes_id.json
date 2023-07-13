@@ -5,9 +5,35 @@
             "ClassName": "Dialogue.Conditions.TrueCondition"
         },
         {
+            "ID": "condition",
+            "ClassName": "Dialogue.Conditions.ConditionChecker"
+        },
+        {
+            "ID": "die",
+            "ClassName": "Dialogue.Conditions.DeadChecker"
+        },
+        {
+            "ID": "disqualified",
+            "ClassName": "Dialogue.Conditions.DisqualifiedChecker"
+        },
+
+        {
             "ID": "test",
             "ClassName": "Dialogue.Behaviours.TestBehaviour"
         },
+        {
+            "ID": "add",
+            "ClassName": "Dialogue.Behaviours.ConditionAdder"
+        },
+        {
+            "ID": "start",
+            "ClassName": "Dialogue.Behaviours.RaceStarterBehaviour"
+        },
+        {
+            "ID": "end",
+            "ClassName": "Dialogue.Behaviours.EndBehaviour"
+        },
+        
         {
             "ID": "half",
             "ClassName": "Race.RunningBehaviours.HalfEffortBehaviour"

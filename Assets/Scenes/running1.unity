@@ -2946,7 +2946,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _minWaitTimeSeconds: 2
   _maxWaitTimeSeconds: 4
-  _maxPoints: 1
+  _maxPoints: 4
 --- !u!1 &735494718
 GameObject:
   m_ObjectHideFlags: 0
@@ -4531,7 +4531,6 @@ MonoBehaviour:
   _effortIndicator: {fileID: 850765922}
   _coachScream: {fileID: 674092221}
   _waitSeconds: 2
-  _shownNumbersCount: 5
 --- !u!1 &1092209193
 GameObject:
   m_ObjectHideFlags: 0
@@ -6523,7 +6522,7 @@ MonoBehaviour:
   _effortRange: 1
   _maxLacticAcid: 100
   _minSpeed: 4
-  _maxSpeed: 8
+  _maxSpeed: 7
   _effortIncrease: 1
   _effortDecrease: 4
   _stamina: 100

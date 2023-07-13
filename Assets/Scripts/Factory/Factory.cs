@@ -45,7 +45,7 @@ namespace Factory
                 throw new FactoryException("Can't create " + conditionType + ": this type doesn't exist.");
             }
             var constructors = type.GetConstructors();
-            var condition = constructors[0].Invoke(parameters.ToArray()) as T;
+            var condition = constructors[0].Invoke(new object[1]{ parameters }) as T;
             if(condition is null)
             {
                 throw new FactoryException("Can't create " + conditionType + " with given parameters.");

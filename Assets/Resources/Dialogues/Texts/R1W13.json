@@ -1,0 +1,22 @@
+{
+    "Texts": [
+        {
+            "Text": "Вроде ничего не потянул.",
+            "Person": "Артем",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner1",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Я рад.",
+            "Person": "Артем",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner1",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        }
+    ]
+}

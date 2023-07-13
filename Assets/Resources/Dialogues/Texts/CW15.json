@@ -1,0 +1,40 @@
+{
+    "Texts": [
+        {
+            "Text": "Поздравляю с боевым крещением",
+            "Person": "Тренер",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Coach",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Спасибо.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Coach",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Что могу сказать. Бежишь неплохо, темп держишь.",
+            "Person": "Тренер",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Coach",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Если потренеруешься, можешь и на разряд сбегать.",
+            "Person": "Тренер",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Coach",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        }
+    ]
+}

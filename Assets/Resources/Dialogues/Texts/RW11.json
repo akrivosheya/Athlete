@@ -1,0 +1,121 @@
+{
+    "Texts": [
+        {
+            "Text": "Здравствуйте. Здесь регистрироваться?",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Registration",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Да. На сколько?",
+            "Person": "Судья",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Registration",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Это... 800 метров.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Registration",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Хорошо...",
+            "Person": "Судья",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Registration",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Фамилия, имя, отчество?",
+            "Person": "Судья",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Registration",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Дмитрий Антонович Качаев.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Registration",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Факультет?",
+            "Person": "Судья",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Registration",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Физический.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Registration",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Так...",
+            "Person": "Судья",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Registration",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Держите. У вас 54. 3 дорожка.",
+            "Person": "Судья",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Registration",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "(девушка протягивает майку с номером)",
+            "Person": "Судья",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Registration",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Спасибо.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Registration",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "(стильненько)",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Registration",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        }
+    ]
+}

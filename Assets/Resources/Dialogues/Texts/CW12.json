@@ -1,0 +1,13 @@
+{
+    "Texts": [
+        {
+            "Text": "Удачного забега.",
+            "Person": "Тренер",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Coach",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        }
+    ]
+}

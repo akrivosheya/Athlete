@@ -1,0 +1,148 @@
+{
+    "Texts": [
+        {
+            "Text": "Здорово, тоже бежишь?",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner2",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Да, уж в этот раз я им покажу.",
+            "Person": "Женя",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner2",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "О, так ты бежишь не первый раз?",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner2",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Ага. Уже год занимаюсь. Но никак не могу побить рекорд.",
+            "Person": "Женя",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner2",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Хм, а какой твой рекорд?",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner2",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "2:16. Пока такое время.",
+            "Person": "Женя",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner2",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Ого, неплохо.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner2",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Да, но многие из моей группы могут и лучше.",
+            "Person": "Женя",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner2",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Вот что я понял. Если бежишь, то лучше на старте сильно не разгоняться. Иначе умрешь раньше половины дистанции.",
+            "Person": "Женя",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner2",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Черт, теперь мне страшно.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner2",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Не бойся. Просто нужно найти правильный темп, такой чтоб молочка не успела накопиться.",
+            "Person": "Женя",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner2",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": " И главное держать. Не мега быстро, но и не медленно.",
+            "Person": "Женя",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner2",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Ну, а в конце, постараться выложиться.",
+            "Person": "Женя",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner2",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Хм, стратегия звучит разумно.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner2",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Тогда, пойду морально готовиться.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner2",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Ага. Я тоже.",
+            "Person": "Женя",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner2",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        }
+    ]
+}

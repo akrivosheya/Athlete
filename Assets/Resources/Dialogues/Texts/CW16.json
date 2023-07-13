@@ -1,0 +1,31 @@
+{
+    "Texts": [
+        {
+            "Text": "Не хочешь пойти ко мне на секцию?",
+            "Person": "Тренер",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Coach",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Да, я бы попробовал. Вроде веселый вид спорта.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Coach",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Отлично. Тогда жду тебя послезавтра, как оклемаешься.",
+            "Person": "Тренер",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Coach",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        }
+    ]
+}

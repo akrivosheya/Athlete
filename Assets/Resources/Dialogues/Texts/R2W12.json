@@ -1,0 +1,22 @@
+{
+    "Texts": [
+        {
+            "Text": "Попробую побить рекорд.",
+            "Person": "Женя",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner2",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Ты тоже постарайся.",
+            "Person": "Женя",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner2",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        }
+    ]
+}

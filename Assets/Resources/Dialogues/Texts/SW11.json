@@ -1,0 +1,31 @@
+{
+    "Texts": [
+        {
+            "Text": "Вы еще не зарегистрированы.",
+            "Person": "Предупреждение",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Когда я пришел, все собирались вокруг сидящей девушки у входа.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Наверно, стоит ее спросить.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        }
+    ]
+}

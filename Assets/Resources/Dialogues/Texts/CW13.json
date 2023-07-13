@@ -1,0 +1,49 @@
+{
+    "Texts": [
+        {
+            "Text": "Вижу, тебя убило.",
+            "Person": "Тренер",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Coach",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Да. Ноги просто отключились.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Coach",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Не на своей скорости бежал. Вот ноги и залились.",
+            "Person": "Тренер",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Coach",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Надо было сбавить. Все-таки главная задача - добежать до финиша.",
+            "Person": "Тренер",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Coach",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Буду знать.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Coach",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        }
+    ]
+}

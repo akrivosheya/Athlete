@@ -1,0 +1,13 @@
+{
+    "Texts": [
+        {
+            "Text": "(мне это незачем)",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Registration",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        }
+    ]
+}

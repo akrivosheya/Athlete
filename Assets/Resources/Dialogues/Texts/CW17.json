@@ -1,0 +1,13 @@
+{
+    "Texts": [
+        {
+            "Text": "",
+            "Person": "",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Coach",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "Texts": [
+        {
+            "Text": "Привет, разминаешься?",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner1",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Ага, не хочу травмироваться.",
+            "Person": "Артем",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner1",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Я Дима.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner1",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Артем, очень приятно.",
+            "Person": "Артем",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner1",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Тоже бежишь?",
+            "Person": "Артем",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner1",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Ага.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner1",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "До этого бегал?",
+            "Person": "Артем",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner1",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Не. Мой первый опыт.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner1",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Ты лучше тоже разомнись. А то потянешь еще ногу.",
+            "Person": "Артем",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner1",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Пробежка, там, растяжка и беговые упражненя.",
+            "Person": "Артем",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner1",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "А, да я уже потянулся. Все норм.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner1",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Ок. Ну тогда давай, удачи там.",
+            "Person": "Артем",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner1",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Ага, спасибо.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner1",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        }
+    ]
+}

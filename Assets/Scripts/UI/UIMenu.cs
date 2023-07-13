@@ -32,6 +32,7 @@ public class UIMenu : MonoBehaviour
 
     public void OnExit()
     {
+        ManagersService.Conditions.Reset();
         ManagersService.Level.LoadScene(_mainMenuScene, StatesManager.GameStates.Menu);
     }
 

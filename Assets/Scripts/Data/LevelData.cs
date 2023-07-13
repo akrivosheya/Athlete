@@ -7,6 +7,7 @@ namespace Data
         public string Scene;
         public float Time;
         public int State;
+        public int Category;
         public bool IsCompleted;
     }
 }

@@ -1,0 +1,13 @@
+{
+    "Texts": [
+        {
+            "Text": "(я сегодня достаточно набегался)",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        }
+    ]
+}

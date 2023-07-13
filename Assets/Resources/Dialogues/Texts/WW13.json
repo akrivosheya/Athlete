@@ -1,0 +1,22 @@
+{
+    "Texts": [
+        {
+            "Text": "Ты был крут.",
+            "Person": "Серый",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Workouter",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Красавчик, я за тебя болел",
+            "Person": "Серый",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Workouter",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        }
+    ]
+}

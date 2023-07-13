@@ -1,0 +1,132 @@
+{
+    "Nodes": [
+        {
+            "Name": "SFW10",
+            "Behaviours": []
+        },
+        {
+            "Name": "SFW11",
+            "Behaviours": [
+                {
+                    "Name": "add",
+                    "Params": [
+                        "TalkedStudentFriend"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "SFW12",
+            "Behaviours": []
+        },
+        {
+            "Name": "SFW13",
+            "Behaviours": []
+        },
+        {
+            "Name": "SFW14",
+            "Behaviours": []
+        },
+        {
+            "Name": "SFW15",
+            "Behaviours": []
+        },
+        {
+            "Name": "SFW16",
+            "Behaviours": [
+                {
+                    "Name": "add",
+                    "Params": [
+                        "TalkedStudentFriendAfterRunRace"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "SFW17",
+            "Behaviours": []
+        }
+    ],
+    "Branches": [
+        {
+            "NodeFromName": "SFW10",
+            "NodeToName": "SFW17",
+            "Conditions": [
+                {
+                    "Name": "condition",
+                    "Params": [
+                        "TalkedStudentFriendAfterRunRace", "RunRace"
+                    ]
+                }
+            ]
+        },
+        {
+            "NodeFromName": "SFW10",
+            "NodeToName": "SFW16",
+            "Conditions": [
+                {
+                    "Name": "condition",
+                    "Params": [
+                        "RunRace"
+                    ]
+                }
+            ]
+        },
+        {
+            "NodeFromName": "SFW10",
+            "NodeToName": "SFW15",
+            "Conditions": [
+                {
+                    "Name": "condition",
+                    "Params": [
+                        "HasRegistrated", "TalkedStudentFriend"
+                    ]
+                }
+            ]
+        },
+        {
+            "NodeFromName": "SFW10",
+            "NodeToName": "SFW12",
+            "Conditions": [
+                {
+                    "Name": "condition",
+                    "Params": [
+                        "TalkedStudentFriend"
+                    ]
+                }
+            ]
+        },
+        {
+            "NodeFromName": "SFW10",
+            "NodeToName": "SFW11",
+            "Conditions": [
+                {
+                    "Name": "true",
+                    "Params": []
+                }
+            ]
+        },
+        {
+            "NodeFromName": "SFW11",
+            "NodeToName": "SFW13",
+            "Conditions": [
+                {
+                    "Name": "condition",
+                    "Params": [
+                        "HasRegistrated"
+                    ]
+                }
+            ]
+        },
+        {
+            "NodeFromName": "SFW11",
+            "NodeToName": "SFW14",
+            "Conditions": [
+                {
+                    "Name": "true",
+                    "Params": []
+                }
+            ]
+        }
+    ]
+}

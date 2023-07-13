@@ -1,0 +1,121 @@
+{
+    "Texts": [
+        {
+            "Text": "О, привет, Дмитрий!",
+            "Person": "Леха",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "StudentFriend",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Привет, Лех.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "StudentFriend",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Что, тоже решил побегать?",
+            "Person": "Леха",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "StudentFriend",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Да, попробую.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "StudentFriend",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "На сколько побежишь? Я на 800 метров.",
+            "Person": "Леха",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "StudentFriend",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Да, думаю также.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "StudentFriend",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Уверен? Обычно студенты, что бегут 800 метров, дохнут на половине дистанции.",
+            "Person": "Леха",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "StudentFriend",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Поэтому большинство бежит 100 или 200.",
+            "Person": "Леха",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "StudentFriend",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "И почему тогда ты сам на 800 то пошел?",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "StudentFriend",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Ну, просто я со школы легкой атлетикой занимаюсь.",
+            "Person": "Леха",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "StudentFriend",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Знаешь, я тоже вообще-то спортом увлекаюсь. Думаю, справлюсь.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "StudentFriend",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Не, не. Если душа просит, я ничего против не имею. Дерзай!",
+            "Person": "Леха",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "StudentFriend",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Ты, кстати, зарегистрировался?",
+            "Person": "Леха",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "StudentFriend",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        }
+    ]
+}

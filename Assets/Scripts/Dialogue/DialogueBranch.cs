@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 
+using UnityEngine;
+
 using Dialogue.Conditions;
 
 namespace Dialogue

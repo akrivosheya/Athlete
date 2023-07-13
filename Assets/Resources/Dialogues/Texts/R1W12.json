@@ -1,0 +1,13 @@
+{
+    "Texts": [
+        {
+            "Text": "Сейчас. Дай мне немного доразмяться.",
+            "Person": "Артем",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner1",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        }
+    ]
+}

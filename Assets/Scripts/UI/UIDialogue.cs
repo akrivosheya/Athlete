@@ -31,6 +31,9 @@ namespace UI
 
         public void StartDialogue()
         {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+
             _font.SetActive(true);
             _centralImage.gameObject.SetActive(true);
             _firstPerson.gameObject.SetActive(true);
@@ -63,6 +66,9 @@ namespace UI
 
         public void EndDialogue()
         {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+            
             _font.SetActive(false);
             _centralImage.gameObject.SetActive(false);
             _firstPerson.gameObject.SetActive(false);

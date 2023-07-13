@@ -40,7 +40,7 @@ namespace Managers
         private IEnumerator ConductDialogue(DialogueNode dialogueNode)
         {
             ManagersService.States.CurrentState = StatesManager.GameStates.Dialogue;
-            _currentDialogueNode = dialogueNode;
+            SetNotEmptyDialogueNode(dialogueNode);
             _currentDialogueNode.Reset();
             CanChangeText = false;
             Messenger.Broadcast(Events.StartedDialogue);
@@ -65,7 +65,7 @@ namespace Managers
                     }
                     else
                     {
-                        _currentDialogueNode = _currentDialogueNode.NextDialogueNode();
+                        SetNotEmptyDialogueNode();
                         _currentDialogueNode.Reset();
                         CanChangeText = false;
                     }
@@ -80,6 +80,24 @@ namespace Managers
 
             Messenger.Broadcast(Events.EndDialogue);
             ManagersService.States.CurrentState = StatesManager.GameStates.Walking;
+        }
+
+        private void SetNotEmptyDialogueNode(DialogueNode firstNode)
+        {
+            _currentDialogueNode = firstNode;
+            while(_currentDialogueNode.IsEmpty && !_currentDialogueNode.IsLast())
+            {
+                _currentDialogueNode = _currentDialogueNode.NextDialogueNode();
+            }
+        }
+
+        private void SetNotEmptyDialogueNode()
+        {
+            _currentDialogueNode = _currentDialogueNode.NextDialogueNode();
+            while(_currentDialogueNode.IsEmpty && !_currentDialogueNode.IsLast())
+            {
+                _currentDialogueNode = _currentDialogueNode.NextDialogueNode();
+            }
         }
     }
 }

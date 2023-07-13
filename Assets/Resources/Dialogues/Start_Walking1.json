@@ -1,0 +1,40 @@
+{
+    "Nodes": [
+        {
+            "Name": "SW10",
+            "Behaviours": []
+        },
+        {
+            "Name": "SW11",
+            "Behaviours": []
+        },
+        {
+            "Name": "SW12",
+            "Behaviours": []
+        }
+    ],
+    "Branches": [
+        {
+            "NodeFromName": "SW10",
+            "NodeToName": "SW12",
+            "Conditions": [
+                {
+                    "Name": "condition",
+                    "Params": [
+                        "RunRace"
+                    ]
+                }
+            ]
+        },
+        {
+            "NodeFromName": "SW10",
+            "NodeToName": "SW11",
+            "Conditions": [
+                {
+                    "Name": "true",
+                    "Params": []
+                }
+            ]
+        }
+    ]
+}

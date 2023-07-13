@@ -1,0 +1,94 @@
+{
+    "Texts": [
+        {
+            "Text": "О, ты же с физического. Мы с тобой с одного курса.",
+            "Person": "Серый",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Workouter",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "А, точно. Я тебя видел на лекциях.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Workouter",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Ты тоже участвуешь во всем этом?",
+            "Person": "Серый",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Workouter",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Ага. А ты?",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Workouter",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Пфф. Не, не мой вид спорта.",
+            "Person": "Серый",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Workouter",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Просто бежать вперед, кажется, чем-то скучным.",
+            "Person": "Серый",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Workouter",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Предпочитаю проявление силовых качеств.",
+            "Person": "Серый",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Workouter",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "К примеру, турничок. Вот тут я могу ощутить свой прогресс.",
+            "Person": "Серый",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Workouter",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Ну, возможно. Я просто хочу проверить силы.",
+            "Person": "Дима",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Workouter",
+            "CentralImage": "",
+            "MainPersonIsActive": true,
+            "SecondPersonIsActive": false
+        },
+        {
+            "Text": "Ага, удачи там.",
+            "Person": "Серый",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Workouter",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        }
+    ]
+}

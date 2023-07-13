@@ -61,6 +61,7 @@ namespace Dialogue
         {
             string fullPath = _textPath + fileName;
             TextAsset json = Resources.Load<TextAsset>(fullPath);
+            Debug.Log(fullPath + " " + json);
             var dialogueTexts = new List<DialogueText>();
             try
             {

@@ -1,0 +1,63 @@
+{
+    "Nodes": [
+        {
+            "Name": "RW10",
+            "Behaviours": []
+        },
+        {
+            "Name": "RW11",
+            "Behaviours": [
+                {
+                    "Name": "add",
+                    "Params": [
+                        "HasRegistrated"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "RW12",
+            "Behaviours": []
+        },
+        {
+            "Name": "RW13",
+            "Behaviours": []
+        }
+    ],
+    "Branches": [
+        {
+            "NodeFromName": "RW10",
+            "NodeToName": "RW13",
+            "Conditions": [
+                {
+                    "Name": "condition",
+                    "Params": [
+                        "RunRace"
+                    ]
+                }
+            ]
+        },
+        {
+            "NodeFromName": "RW10",
+            "NodeToName": "RW12",
+            "Conditions": [
+                {
+                    "Name": "condition",
+                    "Params": [
+                        "HasRegistrated"
+                    ]
+                }
+            ]
+        },
+        {
+            "NodeFromName": "RW10",
+            "NodeToName": "RW11",
+            "Conditions": [
+                {
+                    "Name": "true",
+                    "Params": []
+                }
+            ]
+        }
+    ]
+}

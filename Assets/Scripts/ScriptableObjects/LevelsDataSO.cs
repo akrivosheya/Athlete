@@ -55,6 +55,7 @@ namespace ScriptableObjects
         private void LoadLevels()
         {
             string filePath = Path.Combine(Application.persistentDataPath, FileName);
+            Debug.Log(filePath);
             string json = "";
             if(File.Exists(filePath))
             {

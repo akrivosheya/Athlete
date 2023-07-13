@@ -1,0 +1,22 @@
+{
+    "Texts": [
+        {
+            "Text": "Дай отдышаться.",
+            "Person": "Леха",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "StudentFriend",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Фух...",
+            "Person": "Леха",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "StudentFriend",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        }
+    ]
+}

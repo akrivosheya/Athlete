@@ -16,6 +16,7 @@ namespace Dialogue
         public string CentralImage { get { return _dialogueTexts[_currentTextIndex].CentralImage; } }
         public bool MainPersonIsActive { get { return _dialogueTexts[_currentTextIndex].MainPersonIsActive; } }
         public bool SecondPersonIsActive { get { return _dialogueTexts[_currentTextIndex].SecondPersonIsActive; } }
+        public bool IsEmpty { get{ return _dialogueTexts.Count == 0; } }
         private List<IBehaviour> _behaviours;
         private List<DialogueText> _dialogueTexts;
         private string _name;

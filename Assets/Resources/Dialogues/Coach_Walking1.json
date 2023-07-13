@@ -1,0 +1,156 @@
+{
+    "Nodes": [
+        {
+            "Name": "CW10",
+            "Behaviours": []
+        },
+        {
+            "Name": "CW11",
+            "Behaviours": [
+                {
+                    "Name": "add",
+                    "Params": [
+                        "TalkedCoach"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "CW12",
+            "Behaviours": []
+        },
+        {
+            "Name": "CW13",
+            "Behaviours": []
+        },
+        {
+            "Name": "CW14",
+            "Behaviours": []
+        },
+        {
+            "Name": "CW15",
+            "Behaviours": []
+        },
+        {
+            "Name": "CW16",
+            "Behaviours": []
+        },
+        {
+            "Name": "CW17",
+            "Behaviours": [
+                {
+                    "Name": "end",
+                    "Params": []
+                }
+            ]
+        }
+    ],
+    "Branches": [
+        {
+            "NodeFromName": "CW16",
+            "NodeToName": "CW17",
+            "Conditions": [
+                {
+                    "Name": "true",
+                    "Params": []
+                }
+            ]
+        },
+        {
+            "NodeFromName": "CW10",
+            "NodeToName": "CW13",
+            "Conditions": [
+                {
+                    "Name": "condition",
+                    "Params": [
+                        "RunRace"
+                    ]
+                },
+                {
+                    "Name": "die",
+                    "Params": []
+                }
+            ]
+        },
+        {
+            "NodeFromName": "CW10",
+            "NodeToName": "CW14",
+            "Conditions": [
+                {
+                    "Name": "condition",
+                    "Params": [
+                        "RunRace"
+                    ]
+                },
+                {
+                    "Name": "disqualified",
+                    "Params": []
+                }
+            ]
+        },
+        {
+            "NodeFromName": "CW10",
+            "NodeToName": "CW15",
+            "Conditions": [
+                {
+                    "Name": "condition",
+                    "Params": [
+                        "RunRace"
+                    ]
+                }
+            ]
+        },
+        {
+            "NodeFromName": "CW10",
+            "NodeToName": "CW12",
+            "Conditions": [
+                {
+                    "Name": "condition",
+                    "Params": [
+                        "TalkedCoach"
+                    ]
+                }
+            ]
+        },
+        {
+            "NodeFromName": "CW10",
+            "NodeToName": "CW11",
+            "Conditions": [
+                {
+                    "Name": "true",
+                    "Params": []
+                }
+            ]
+        },
+        {
+            "NodeFromName": "CW13",
+            "NodeToName": "CW16",
+            "Conditions": [
+                {
+                    "Name": "true",
+                    "Params": []
+                }
+            ]
+        },
+        {
+            "NodeFromName": "CW14",
+            "NodeToName": "CW16",
+            "Conditions": [
+                {
+                    "Name": "true",
+                    "Params": []
+                }
+            ]
+        },
+        {
+            "NodeFromName": "CW15",
+            "NodeToName": "CW16",
+            "Conditions": [
+                {
+                    "Name": "true",
+                    "Params": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "Nodes": [
+        {
+            "Name": "R2W10",
+            "Behaviours": []
+        },
+        {
+            "Name": "R2W11",
+            "Behaviours": [
+                {
+                    "Name": "add",
+                    "Params": [
+                        "TalkedRunner2"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "R2W12",
+            "Behaviours": []
+        },
+        {
+            "Name": "R2W13",
+            "Behaviours": []
+        }
+    ],
+    "Branches": [
+        {
+            "NodeFromName": "R2W10",
+            "NodeToName": "R2W13",
+            "Conditions": [
+                {
+                    "Name": "condition",
+                    "Params": [
+                        "RunRace"
+                    ]
+                }
+            ]
+        },
+        {
+            "NodeFromName": "R2W10",
+            "NodeToName": "R2W12",
+            "Conditions": [
+                {
+                    "Name": "condition",
+                    "Params": [
+                        "TalkedRunner2"
+                    ]
+                }
+            ]
+        },
+        {
+            "NodeFromName": "R2W10",
+            "NodeToName": "R2W11",
+            "Conditions": [
+                {
+                    "Name": "true",
+                    "Params": []
+                }
+            ]
+        }]
+}

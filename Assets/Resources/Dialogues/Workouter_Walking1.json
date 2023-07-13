@@ -1,0 +1,63 @@
+{
+    "Nodes": [
+        {
+            "Name": "WW10",
+            "Behaviours": []
+        },
+        {
+            "Name": "WW11",
+            "Behaviours": [
+                {
+                    "Name": "add",
+                    "Params": [
+                        "TalkedWorkouter"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "WW12",
+            "Behaviours": []
+        },
+        {
+            "Name": "WW13",
+            "Behaviours": []
+        }
+    ],
+    "Branches": [
+        {
+            "NodeFromName": "WW10",
+            "NodeToName": "WW13",
+            "Conditions": [
+                {
+                    "Name": "condition",
+                    "Params": [
+                        "RunRace"
+                    ]
+                }
+            ]
+        },
+        {
+            "NodeFromName": "WW10",
+            "NodeToName": "WW12",
+            "Conditions": [
+                {
+                    "Name": "condition",
+                    "Params": [
+                        "TalkedWorkouter"
+                    ]
+                }
+            ]
+        },
+        {
+            "NodeFromName": "WW10",
+            "NodeToName": "WW11",
+            "Conditions": [
+                {
+                    "Name": "true",
+                    "Params": []
+                }
+            ]
+        }
+    ]
+}

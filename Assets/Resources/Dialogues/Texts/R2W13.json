@@ -1,0 +1,22 @@
+{
+    "Texts": [
+        {
+            "Text": "Опять 2:19, черт!",
+            "Person": "Женя",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner2",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Ладно. В следующий раз я им покажу.",
+            "Person": "Женя",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Runner2",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        }
+    ]
+}

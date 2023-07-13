@@ -1,0 +1,13 @@
+{
+    "Texts": [
+        {
+            "Text": "Сейчас будет весело! Ты главное не забудь зарегистрироваться.",
+            "Person": "Леха",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "StudentFriend",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        }
+    ]
+}

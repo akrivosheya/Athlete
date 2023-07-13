@@ -1,0 +1,22 @@
+{
+    "Texts": [
+        {
+            "Text": "Да. Вы уже зарегистрировались.",
+            "Person": "Судья",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Registration",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        },
+        {
+            "Text": "Номер 54. 3 дорожка.",
+            "Person": "Судья",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Registration",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        }
+    ]
+}

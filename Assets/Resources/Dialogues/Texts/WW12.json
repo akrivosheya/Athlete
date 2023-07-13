@@ -1,0 +1,13 @@
+{
+    "Texts": [
+        {
+            "Text": "Ни пуха ни пера.",
+            "Person": "Серый",
+            "MainPersonImage": "MainPerson",
+            "SecondPersonImage": "Workouter",
+            "CentralImage": "",
+            "MainPersonIsActive": false,
+            "SecondPersonIsActive": true
+        }
+    ]
+}
